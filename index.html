@@ -1,107 +1,258 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS v5.0.2 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="restaurant.css">
-  </head>
-  <body>
-    
-<div class="container-fluid">
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+  <!-- Bootstrap CSS v5.0.2 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="restaurant.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&display=swap" rel="stylesheet">
+</head>
 
-    <a class="navbar-brand" href="#">
-      <img src="https://zupimages.net/up/21/40/e9w9.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
-    </a>
+<body>
+  
+
+    <nav id="navbar" class="navbar navbar-expand-md navbar-dark ">
+      <div class="container-fluid">
+        
+      <a id="logo" class="navbar-brand expand-sm" href="#">
+        <img src="https://zupimages.net/up/21/40/e9w9.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+      </a>
      
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Welcome</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Menu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pictures</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Restaurant</a>
-        </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto text-center">
+
+
+          <li class="nav-item"><a class="nav-link " href="#">Menu</a></li>
+          <li class="nav-item"><a class="nav-link " href="#">Pictures</a></li>
+          <li class="nav-item"><a class="nav-link " href="#">Restaurant</a></li>
+          <li class="nav-item"><a class="nav-link " href="#">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+    
+    </nav>
     
   
-  </nav>
-</div>
+
+
+
+
+
+  <div class="container text-center justify-content-center">
+
+    <div id="titre" class="col-12 " style="background-color: rgba(90, 90, 90, 0.247);" >
+      <h1>Restaurant Shibuya</h1>
+      <h2>Spécialiste du Ramen</h2>
+    </div>
+
+    <div class="row">
+
+      <div class="col-sm-4 order-sm-1">
+
+        <div class="panel panel-default  border rounded-3 " style="background-color: rgba(241, 236, 236, 0.918);">
+
+
+
+          <h1>Notre histoire</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quod ducimus ad rerum ab! Incidunt
+            natus exercitationem doloribus a cumque eveniet culpa praesentium minima! Sapiente dolores cum iste nesciunt
+            animi.</p>
+        </div>
+
+
+        <div class="panel panel-default bg-light border rounded-3 mt-4 mb-4">
+        <h1>Nos ingrédients</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus blanditiis repellendus neque possimus
+          corrupti, nesciunt voluptatem deleniti earum veritatis sit, delectus mollitia numquam veniam sint atque,
+          laborum voluptas! Quam, deleniti.</p>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="col-sm-4 order-sm-2">
+
+
+
+
+      </div>
+
+      
+
+
+      
+       <div  class="col-sm-4 order-sm-3">
+        <div class="panel panel-default bg-light border rounded-3 ">
+        <h1>Nos spécialités</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo commodi perspiciatis ducimus. Id dolores
+          nobis alias repellendus quis minus odit tenetur nam corporis, eligendi quam nesciunt ad voluptatem veritatis
+          ratione.</p>
+
+          </div>
+        
+      </div>
+ 
+      
+      <div class="container-fluid text-center justify-content-center order-sm-4 mt-5">
+        <!-- <h1 id="titre">Ce qu'ils pensent de nous:</h1> -->
+        
+        <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div id="google" class="card-body p-5">
+              
+              <a href="#" class="btn btn-primary">Avis Google</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div id="trip" class="card-body p-5">
+              
+              <a href="#" class="btn btn-primary">Avis Tripadvisor</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
 
     
 
- <div class="container text-center justify-content-center">
 
-  <h1>Restaurant Shibuya</h1>
-  <h2>Spécialiste du Ramen</h2>
-
-  <div class="row mt-4">
-
-    <div class="col-sm-4 order-sm-1">
-
-        <div class="article">
-          <h1>Notre histoire</h1>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quod ducimus ad rerum ab! Incidunt natus exercitationem doloribus a cumque eveniet culpa praesentium minima! Sapiente dolores cum iste nesciunt animi.</p>
+      <!-- Jumbotron en boostrap 5  -->
+      <div class="col-12 mt-5 order-sm-5">
+        <div id="jumbo" class="h-100 p-5 bg-light border rounded-3">
+          <h2>Venez découvrir l'authenticité :</h2>
+          <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to
+            look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's
+            content for equal-height.</p>
+          <button class="btn btn-outline-secondary" type="button">Photos de nos plats</button>
         </div>
-
-      <h1>Nos ingrédients</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus blanditiis repellendus neque possimus corrupti, nesciunt voluptatem deleniti earum veritatis sit, delectus mollitia numquam veniam sint atque, laborum voluptas! Quam, deleniti.</p>
-
-    </div>
+      </div>
 
 
 
-
-
-    <div class="col-sm-4 order-sm-2" >
-      
-      
 
 
     </div>
-    <div class="col-sm-4 order-sm-3">
-      <h1>Nos spécialités</h1>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo commodi perspiciatis ducimus. Id dolores nobis alias repellendus quis minus odit tenetur nam corporis, eligendi quam nesciunt ad voluptatem veritatis ratione.</p>
-
-    </div>
-
-
-
-
-
-
-
-
-    <div class="row mt-5 order-sm-4">
-      <h1>Venez partager</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum doloribus accusantium cum ex, velit, dolorem perspiciatis quisquam placeat nam explicabo saepe debitis rerum. Dicta, nisi sapiente consequatur porro ut quo.</p>
-    </div>
-
-
-
-
-
-
 
 
 
   </div>
 
+    <footer class="container-fluid text-center justify-content-center mt-5  border rounded-3" style="background-color: rgba(241, 236, 236, 0.562);" >
+
+      <div id="foot" class="row mb-1">
+        <div class="col-sm-4 order-sm-5 mb-1">
+
+          <h2>Contactez-nous</h2>
+          <p>Route de la joie , n°69 <br>
+            1000 - Brussels
+
+
+          </p>
+          <p>Tel : 0497 067 226 <br>
+            Email: <a href="mailto:shibuyaramen@gmail.com">Shibuyaramen@gmail.com</a>
+
+          </p>
+
+
+        </div>
+
+
+
+        <div class="col-sm-4 order-sm-6 mb-0 pb-0">
+
+          <h2>Heures d'ouvertures</h2>
+          <p>
+            <strong>Mardi, Mercredi, jeudi et Vendredi :</strong><br>
+            De 12h00 à 14h00 et de 19h00 à 21h30
+
+          </p>
+          <p>
+            <Strong>Samedi :</Strong> <br>
+            De 11h00 à 15h00 et de 17h00 à 22h30
+
+
+
+
+          </p>
+
+          <p><strong>Lundi et Dimanche :</strong><br>
+            Fermé
+
+          </p>
+
+
+        </div>
+
+
+        <div class="col-sm-4 order-sm-7">
+
+          <h2>Réservation</h2>
+          <p><strong>Par téléphone : </strong> <br>
+            0497 067 226
+          </p>
+          <p><strong>Via notre form:</strong> <br>
+            <button class="btn btn-outline-secondary" type="button">Contact</button></p>
+            <!-- <p><strong>Nos Réseaux:</strong></p>
+            <a href="#" class="ico" title="Facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="ico" title="Linkedin"><i class="fa fa-instagram"></i></a> -->
+
+
+        </div>
+
+
+
+
+
+
+      </div>
+
+
+
+     
+
+
+
+
+      <div class="container-fluid text-center mt-1" style="background-color: rgba(0, 0, 0, 0.2);">
+
+
+
+
+
+
+
+        2021 Copyright :
+        <a class="text-dark" href="https://borisbecode.github.io/">Bis Becode</a>
+      </div>
+
+
+
+    </footer>
 
 
 
@@ -116,14 +267,20 @@
 
 
 
- </div>
+
+ 
 
 
 
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
 
-      
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-  </body>
 </html>

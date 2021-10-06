@@ -1,0 +1,111 @@
+body{
+    background-image:  url(https://www.zupimages.net/up/21/25/ztny.png);
+    background-position: center;
+        background-repeat: no-repeat;
+        min-width:100%;
+     min-height:100vh;
+      width:100%;
+        height:100vh;
+}
+
+
+
+
+
+.nav-item{
+    background-color: grey;
+    border-radius: 5px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1vh;
+    
+}
+
+.nav-link{
+    color: red;
+}
+
+.article{
+    background-color: rgba(41, 44, 51, 0.5);
+    
+}
+
+#navbar{
+    
+    padding-top: 5vh;
+
+    
+    padding-bottom: 2vh; 
+    background-image:  url(https://zupimages.net/up/21/25/uzpx.jpg)  ;
+    
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    border: 1px solid;
+}
+
+#logo{
+    position: relative;
+    left: 20%;
+   
+    
+}
+
+.ico{
+    font-size: 200%;
+    margin: 10%;
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+
+#apres{
+    padding-top: 40vh;
+}
+
+.img-fluid {
+    float:left;
+    width:  600px;
+    height: 600px;
+    object-fit: cover;
+}

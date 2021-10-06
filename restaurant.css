@@ -1,34 +1,146 @@
+#caract{
+    font-family: 'Bitter', serif;
+font-family: 'Cabin', sans-serif;
+}
 body{
-    background-image:  url(https://www.zupimages.net/up/21/25/ztny.png);
+ background-image: url(https://zupimages.net/up/21/40/orzr.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ font-family: 'Bitter', serif;
+font-family: 'Cabin', sans-serif;
+
+
+
+
+   /*  background-image:  url(https://www.zupimages.net/up/21/25/ztny.png);
     background-position: center;
         background-repeat: no-repeat;
         min-width:100%;
      min-height:100vh;
       width:100%;
-        height:100vh;
+        height:100vh; */
+}
+
+#titre{
+    color: white;
+    text-shadow: 10px 5px 5px red;
+    font-weight: bold;
+    font-family: 'Bitter', serif;
+    font-family: 'Cabin', sans-serif;
 }
 
 
-.col-4{
-
-    border: 1px solid;
-}
 
 
-.nav-item{
-    background-color: grey;
+
+li{
+    background-color: rgb(255, 0, 0);
     border-radius: 5px;
     margin-left: 1vw;
     margin-right: 1vw;
     margin-top: 1vh;
+   
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    
     
 }
 
-.nav-link{
-    color: red;
-}
+
 
 .article{
-    background-color: rgba(6, 43, 112, 0.5);
-    color: rgb(73, 0, 0);
+    background-color: rgba(41, 44, 51, 0.5);
+    
 }
+
+#navbar{
+    
+    padding-top: 5vh;
+
+    
+    padding-bottom: 2vh; 
+  /*   background-image:  url(https://zupimages.net/up/21/25/uzpx.jpg)  ;
+    
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    border: 1px solid; */
+}
+
+#logo{
+    position: relative;
+    left: 20%;
+   
+    
+}
+
+.ico{
+    font-size: 200%;
+    
+   
+}
+#google{
+    background-image: url(https://s3-eu-central-1.amazonaws.com/topcompare-blogassets/blog/fr_BE/wp-content/uploads/2021/04/30110159/Google-My-Business-Review.png);
+    
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: left;
+    color: rgb(0, 0, 0);
+    
+    
+   
+}
+
+#trip{
+    background-image: url(https://lh3.googleusercontent.com/proxy/md4MjyEJVj47gwiCnEceCGCdYy_vAQcyLsljTHzXLyvuUWAVrYiyIVndwi3fWjacXN0QrHzCQLQZTg6qnhdyETsC_U5Z3cNqahBhGN8);
+    
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: left;
+    color: rgb(0, 0, 0);
+    
+    
+   
+}
+
+#foot{
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+}
+
+#jumbo{
+
+    background-image: url(https://zupimages.net/up/21/40/235s.jpg);
+    
+    background-size: 20%;
+    background-repeat: no-repeat;
+   
+    color: rgb(0, 0, 0);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

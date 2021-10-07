@@ -1,29 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#caract{
+    font-family: 'Bitter', serif;
+font-family: 'Cabin', sans-serif;
+}
 body{
-    background-image:  url(https://www.zupimages.net/up/21/25/ztny.png);
+ background-image: url(https://zupimages.net/up/21/40/orzr.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ font-family: 'Bitter', serif;
+font-family: 'Cabin', sans-serif;
+
+
+
+
+   /*  background-image:  url(https://www.zupimages.net/up/21/25/ztny.png);
     background-position: center;
         background-repeat: no-repeat;
         min-width:100%;
      min-height:100vh;
       width:100%;
-        height:100vh;
+        height:100vh; */
+}
+
+#titre{
+    color: white;
+    text-shadow: 10px 5px 5px red;
+    font-weight: bold;
+   
+}
+
+#soustitre{
+    margin-top: 60vh ;
+    color: white;
+    text-shadow: 5px 5px 5px red;
+    font-weight: bold;
+    
+
+
 }
 
 
 
 
 
-.nav-item{
-    background-color: grey;
+li{
+    background-color: rgb(255, 0, 0);
     border-radius: 5px;
     margin-left: 1vw;
     margin-right: 1vw;
     margin-top: 1vh;
+   
+    
+    
     
 }
 
-.nav-link{
-    color: red;
-}
+
 
 .article{
     background-color: rgba(41, 44, 51, 0.5);
@@ -32,18 +70,26 @@ body{
 
 #navbar{
     
+    
     padding-top: 5vh;
 
     
     padding-bottom: 2vh; 
-    background-image:  url(https://zupimages.net/up/21/25/uzpx.jpg)  ;
+  /*   background-image:  url(https://zupimages.net/up/21/25/uzpx.jpg)  ;
     
     
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     
-    border: 1px solid;
+    border: 1px solid; */
+}
+
+#logo{
+    position: relative;
+    left: 20%;
+   
+    
 }
 
 #logo{
@@ -64,22 +110,8 @@ body{
 
 
 
-.carousel-inner .carousel-item-right.active,
-.carousel-inner .carousel-item-next {
-  transform: translateX(33.33%);
-}
 
-.carousel-inner .carousel-item-left.active, 
-.carousel-inner .carousel-item-prev {
-  transform: translateX(-33.33%)
-}
-
-.carousel-inner .carousel-item-right,
-.carousel-inner .carousel-item-left{ 
-  transform: translateX(0);
-}
-
-.img-fluid {
+.img-fluid{
     
     width:  600px;
     height: 600px;
@@ -90,3 +122,49 @@ body{
     padding-top: 40vh;
 }
 
+
+
+
+
+
+
+
+
+
+
+.owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel .owl-nav button.owl-next,
+  .owl-carousel button.owl-dot {
+      
+  
+    font-size: 80px;
+    
+    margin-top: 0px;
+    padding-top: 0 !important;
+     }
+
+
+.owl-theme .owl-nav {
+    
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+   
+    border-radius: 5px;
+    cursor: default;
+     }
+
+
+     .owl-theme .owl-dots .owl-dot span {
+        width: 20px;
+        height: 15px;
+        margin: 5px 7px;
+        background: #ff0000;
+        display: block;
+        -webkit-backface-visibility: visible;
+        transition: opacity 200ms ease;
+        border-radius: 30px; }
+
+
+
+        

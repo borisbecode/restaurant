@@ -55,6 +55,7 @@ li{
 
 #navbar{
     
+    
     padding-top: 5vh;
 
     
@@ -111,13 +112,21 @@ li{
 }
 
 #jumbo{
-
-    background-image: url(https://zupimages.net/up/21/40/235s.jpg);
+background-color: rgba(255, 0, 0, 0.418);
     
-    background-size: 20%;
-    background-repeat: no-repeat;
-   
-    color: rgb(0, 0, 0);
+
+
+}
+
+@media all and (max-width: 570px) {
+
+
+
+.card{
+    margin-top: 30px;
+    
+}
+
 
 
 }

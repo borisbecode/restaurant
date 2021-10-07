@@ -64,48 +64,29 @@ body{
 
 
 
-@media (max-width: 767px) {
-    .carousel-inner .carousel-item > div {
-        display: none;
-    }
-    .carousel-inner .carousel-item > div:first-child {
-        display: block;
-    }
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(33.33%);
 }
 
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-left.active, 
 .carousel-inner .carousel-item-prev {
-    display: flex;
+  transform: translateX(-33.33%)
 }
 
-/* medium and up screens */
-@media (min-width: 768px) {
-    
-    .carousel-inner .carousel-item-end.active,
-    .carousel-inner .carousel-item-next {
-      transform: translateX(25%);
-    }
-    
-    .carousel-inner .carousel-item-start.active, 
-    .carousel-inner .carousel-item-prev {
-      transform: translateX(-25%);
-    }
-}
-
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start { 
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
   transform: translateX(0);
 }
 
+.img-fluid {
+    
+    width:  600px;
+    height: 600px;
+    object-fit: cover;
+}
 
 #apres{
     padding-top: 40vh;
 }
 
-.img-fluid {
-    float:left;
-    width:  600px;
-    height: 600px;
-    object-fit: cover;
-}

@@ -49,6 +49,7 @@ font-family: 'Cabin', sans-serif;
 
 
 li{
+    
     background-color: rgb(255, 0, 0);
     border-radius: 5px;
     margin-left: 1vw;
@@ -125,10 +126,25 @@ img{
 
     height: 50px;
     width: 50px;
+    
 }
 
 img:hover{
-    
-    width: 200px;
-    height: 200px;
+   
+   transform: scale(300%);
 }
+
+
+#button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(173, 0, 0);
+}
+
+#button:hover{
+    transform: scale(110%);
+}
+
+li:hover{
+    transform: scale(110%);
+}
+

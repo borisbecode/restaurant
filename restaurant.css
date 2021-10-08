@@ -134,7 +134,18 @@ background-color: rgba(255, 0, 0, 0.418);
 
 
 
+#button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(173, 0, 0);
+}
 
+#button:hover{
+    transform: scale(110%);
+}
+
+li:hover{
+    transform: scale(110%);
+}
 
 
 

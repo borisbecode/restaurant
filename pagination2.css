@@ -33,7 +33,7 @@ font-family: 'Cabin', sans-serif;
 }
 
 #soustitre{
-    margin-top: 60vh ;
+    
     color: white;
     text-shadow: 5px 5px 5px red;
     font-weight: bold;
@@ -135,45 +135,16 @@ li:hover{
 
 
 
+@media all and (max-width: 570px){
+
+#soustitre{
+    margin-top: 2vh;
+}
+
+
+}
 
 
 
 
 
-
-.owl-carousel .owl-nav button.owl-prev,
-  .owl-carousel .owl-nav button.owl-next,
-  .owl-carousel button.owl-dot {
-      
-  
-    font-size: 80px;
-    
-    margin-top: 0px;
-    padding-top: 0 !important;
-     }
-
-
-.owl-theme .owl-nav {
-    
-    text-align: center;
-    font-size: 50px;
-    color: rgb(255, 0, 0);
-   
-    border-radius: 5px;
-    cursor: default;
-     }
-
-
-     .owl-theme .owl-dots .owl-dot span {
-        width: 20px;
-        height: 15px;
-        margin: 5px 7px;
-        background: #ff0000;
-        display: block;
-        -webkit-backface-visibility: visible;
-        transition: opacity 200ms ease;
-        border-radius: 30px; }
-
-
-
-        

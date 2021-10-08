@@ -44,9 +44,11 @@ font-family: 'Cabin', sans-serif;
 
 
 
+#pagination{
+    margin: 2px;
+}
 
-
-li{
+#pagination{
     background-color: rgb(255, 0, 0);
     border-radius: 5px;
     margin-left: 1vw;

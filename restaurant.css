@@ -113,10 +113,18 @@ li{
 }
 
 #jumbo{
-background-color: rgba(255, 0, 0, 0.418);
+    background-image: url(https://zupimages.net/up/21/40/mmh0.jpg);
     
+ background-repeat: no-repeat;
+
+ background-size: cover;
+ background-position: 50%;
 
 
+}
+#specialite{
+    background-color:rgba(255, 255, 255, 0);
+    font-weight: bold;
 }
 
 @media all and (max-width: 570px) {
@@ -154,9 +162,12 @@ li:hover{
 
 
 #footer{
-    background: -webkit-linear-gradient(90deg, rgb(106, 0, 0), rgb(230, 241, 252));
-    background: linear-gradient(90deg, rgb(106, 0, 0), rgb(230, 241, 252));
     
+
+    
+background: -webkit-radial-gradient(rgb(255, 183, 183), rgb(70, 0, 0));
+background: radial-gradient(rgb(255, 183, 183), rgb(70, 0, 0));
+
 }
 
 

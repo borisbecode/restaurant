@@ -151,3 +151,12 @@ background-color: rgba(255, 0, 0, 0.418);
 
 li:hover{
     transform: scale(110%);    }
+
+
+    #footer{
+        background: -webkit-linear-gradient(90deg, rgb(106, 0, 0), rgb(230, 241, 252));
+        background: linear-gradient(90deg, rgb(106, 0, 0), rgb(230, 241, 252));
+        
+    }
+    
+    

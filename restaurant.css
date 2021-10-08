@@ -153,7 +153,11 @@ li:hover{
 
 
 
-
+#footer{
+    background: -webkit-linear-gradient(90deg, rgb(106, 0, 0), rgb(230, 241, 252));
+    background: linear-gradient(90deg, rgb(106, 0, 0), rgb(230, 241, 252));
+    
+}
 
 
 

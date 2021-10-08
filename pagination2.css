@@ -108,9 +108,9 @@ li{
 
 
 
-.img-fluid{
+.card-img-top{
     
-    width:  600px;
+    width: auto;
     height: 600px;
     object-fit: cover;
 }

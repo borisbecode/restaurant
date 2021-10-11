@@ -25,6 +25,13 @@ font-family: 'Cabin', sans-serif;
         height:100vh; */
 }
 
+
+#active{
+    background-color:#DC3545;
+    border: 1px solid black;
+    
+}
+
 #titre{
     
   
@@ -51,20 +58,26 @@ font-family: 'Cabin', sans-serif;
 
 
 
-#pagination{
-    margin: 2px;
-}
+
 
 #pagination{
+    margin: 2px;
     background-color: rgb(255, 0, 0);
     border-radius: 5px;
     margin-left: 1vw;
     margin-right: 1vw;
     margin-top: 1vh;
+    
    
     
     
     
+}
+.page-link{
+    color: #DC3545;
+    
+    
+
 }
 
 
@@ -98,12 +111,7 @@ font-family: 'Cabin', sans-serif;
     
 }
 
-#logo{
-    position: relative;
-    left: 20%;
-   
-    
-}
+
 
 .ico{
     font-size: 200%;
@@ -142,18 +150,6 @@ li:hover{
 }
 
 
-
-
-@media all and (max-width: 570px){
-
-#soustitre{
-    margin-top: 2vh;
-}
-
-
-}
-
-
 #footer{
     background: -webkit-linear-gradient(90deg, rgb(106, 0, 0), rgb(230, 241, 252));
     background: linear-gradient(90deg, rgb(106, 0, 0), rgb(230, 241, 252));
@@ -172,6 +168,20 @@ li{
     text-shadow: 0px 0px 0px rgb(255, 255, 255);
     
     
+}
+
+
+
+
+
+
+@media all and (max-width: 570px){
+
+#soustitre{
+    margin-top: 2vh;
+}
+
+
 }
 
 

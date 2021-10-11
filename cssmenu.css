@@ -91,12 +91,6 @@ li{
     
 }
 
-#logo{
-    position: relative;
-    left: 20%;
-   
-    
-}
 
 .ico{
     font-size: 200%;
@@ -142,8 +136,29 @@ img{
 }
 
 img:hover{
+    z-index: 1;
+    
+    position: absolute;
+    
+    
    
+   transform: scale(1000%);
   
+}
+
+#logo{
+    position: relative;
+    left: 20%;
+   
+    
+}
+#avatar{
+    height: 40px;
+    width: 40px;
+}
+#avatar:hover{
+    position: inherit;
+    transform: scale(100%);
 }
 
 
@@ -167,3 +182,17 @@ img:hover{
 
 
 
+@media all and (max-width: 570px){
+
+    img:hover{
+        z-index: auto;
+        
+        position: absolute;
+        
+        left: 50%;
+       
+       transform: scale(200%);
+      
+    }
+
+}

@@ -38,6 +38,8 @@ Le style , la beauté du site .
 ### SASS!! 
 Je n'ai rien compris à SASS je vais m'y ateler de ce pas , essayer de suivre un tuto et de comprendre , pour l'instant cela m'est tres obscur . 
 
+# Update 16h30 , j'ai reussi à installer SASS localement, grande victoire sur le monde. Ya plus qu'a
+
 
 
 

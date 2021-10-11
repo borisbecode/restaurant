@@ -45,7 +45,7 @@ Je n'ai rien compris à SASS je vais m'y ateler de ce pas , essayer de suivre un
 
 
 
-![ne sois pas perdu](https://i.gifer.com/XOsX.gif) Moi vers un tuto youtube SASS
+![ne sois pas perdu](https://media.giphy.com/media/6ICc7y1PHjIhW/giphy.gif) Moi vers un tuto youtube SASS
 
 
 

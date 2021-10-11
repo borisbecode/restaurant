@@ -103,23 +103,32 @@
 
                         <!-- Name input -->
                         <div class="mb-3">
-                            <label class="form-label" for="name">Name</label>
+                            <label class="form-label" for="name">Nom</label>
                             <input class="form-control" id="name" type="text" placeholder="Name" />
                         </div>
                         <div class="mb-3">
-                            <label class="form-label" for="firstname">Firstname</label>
+                            <label class="form-label" for="firstname">Prénom</label>
                             <input class="form-control" id="firstname" type="text" placeholder="Firstname" />
                         </div>
 
                         <!-- Email address input -->
                         <div class="mb-3">
-                            <label class="form-label" for="emailAddress">Email Address</label>
+                            <label class="form-label" for="emailAddress">Adresse Email</label>
                             <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
                         </div>
 
                         <!-- Message input -->
                         <div class="mb-3">
-                            <label class="form-label" for="message">Votre Message</label>
+                            <label class="form-label mt-1" for="message">Type de question :</label>
+
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Votre message concerne :</option>
+                                <option value="1">Prise de rendez-vous</option>
+                                <option value="2">Questions autres</option>
+                                <option value="3">Postuler chez nous</option>
+                              </select>
+
+                            <label class="form-label mt-3" for="message">Votre Message :</label>
                             <textarea class="form-control" id="message" type="text"
                                 placeholder="Comment faites vous pour faire de si bon Ramen?"
                                 style="height: 10rem;"></textarea>
@@ -205,7 +214,7 @@
                         0497 067 226
                     </p>
                     <p><strong>Via notre formulaire:</strong> <br>
-                        <a class="btn btn-primary" href="https://borisbecode.github.io/restaurant/contact.html" role="button">Formulaire</a>
+                        <a class="btn btn-primary mt-3" href="https://borisbecode.github.io/restaurant/contact.html" role="button">Formulaire</a>
                     </p>
                 </div>
 

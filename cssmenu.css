@@ -120,6 +120,11 @@ li{
    
     font-size: 20px;
 }
+#badge{
+    
+   margin-right: 3vw;
+    font-size: 15px;
+}
 
 
 img{
@@ -144,9 +149,7 @@ img:hover{
     transform: scale(110%);
 }
 
-li:hover{
-    transform: scale(110%);
-}
+
 
 
 #footer{

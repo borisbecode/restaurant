@@ -73,7 +73,7 @@ li{
 
 
 #reservation{
-    padding-bottom: 5.5vh;
+    padding-bottom: 3.5vh;
 }
 
 #contactez{
@@ -110,9 +110,10 @@ li:hover{
 
 
 #map{
+    padding-top: 9vh;
     padding: 1vh;
     padding: 1vw;
-    padding-bottom: 7vh;
+    padding-bottom: 8.3vh;
 }
 #form{
     padding: 1vh;
@@ -127,7 +128,7 @@ li:hover{
 
     position:relative;
 
-    height:0;
+   height: 600px;
    
 
 }
